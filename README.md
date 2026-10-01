@@ -4,7 +4,7 @@
 
 ## ใช้งาน
 
-https://SnokeyNut.github.io/Stock/
+https://snokeynut.github.io/Stock/
 
 1. เข้าสู่ระบบ → สร้างบัญชี → ยืนยันอีเมล
 2. สร้างองค์กร เพิ่มร้าน สาขา ผู้ขาย ประเภท และสินค้า
@@ -33,8 +33,12 @@ npm run build:pages
 
 อัปโหลด `pages-dist/index.html` ที่ได้แทน `index.html` ใน repository นี้ GitHub Pages จะเผยแพร่เวอร์ชันใหม่ โดยยังย้อนกลับผ่าน commit history ได้
 
-Supabase project: `pjahviamqmnfpnidydhe` กำหนด Auth Site URL และ redirect URLs ให้ตรงกับ `https://SnokeyNut.github.io/Stock/` สำหรับการยืนยันอีเมลในเว็บจริง
+Supabase project: `pjahviamqmnfpnidydhe` กำหนด Auth Site URL และ redirect URLs ให้ตรงกับ `https://snokeynut.github.io/Stock/` สำหรับการยืนยันอีเมลในเว็บจริง
 
 AI อ่านบิล/รูปเบิก, POS, Recipe/BOM, Food Cost และ Usage Variance เป็น Coming Soon ไม่มีการส่ง LINE อัตโนมัติ
 
 เว็บเดิมของบัญชี `siamsukicnx` และ Supabase project เดิมไม่ถูกแก้ไข ไม่ได้ย้ายข้อมูลเก่าเข้า Phase 1 อัตโนมัติ
+
+## ผู้ใช้และสิทธิ์
+
+จัดการข้อมูล → ผู้ใช้และสิทธิ์ แอดมินจัดการสมาชิก/ข้อมูลพื้นฐานได้ ผู้ปฏิบัติงานบันทึกงานสต๊อกและสั่งซื้อได้ ผู้ดูข้อมูลอ่านอย่างเดียว สิทธิ์ใช้กับทุกสาขาขององค์กร มีการตรวจสิทธิ์ที่ฐานข้อมูล บัญชีที่สมัครเองไม่มีสิทธิ์เข้าองค์กรจนกว่าแอดมินเพิ่มสมาชิก ไม่มีการส่งอีเมลเชิญ และยังไม่มีสิทธิ์แยกรายสาขา
